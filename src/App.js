@@ -18,7 +18,6 @@ function App() {
       <Languages />
       <Project />
       <Footer />
-
     </div>
   );
 }

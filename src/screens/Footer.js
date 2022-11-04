@@ -1,8 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import {
-    Link
-} from "react-router-dom";
 function Footer() {
     return (
         <footer class="footer bg-dark py-5">
@@ -14,8 +11,8 @@ function Footer() {
                 <nav className="text-3xl">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
                         <li><a href="#">Tech</a></li>
+                        <li><a href="#">Projects</a></li>
                     </ul>
                 </nav>
                 <div class="social">
@@ -32,6 +29,4 @@ function Footer() {
 
 export default Footer
 
-{/* <Link><a href="#index.html">Home</a></Link>
-                        <Link><a href="#features.html">Services</a></Link>
-                        <Link><a href="#docs.html">Tech</a></Link> */}
+
