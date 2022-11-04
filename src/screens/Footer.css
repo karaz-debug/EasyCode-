@@ -1,0 +1,25 @@
+.footer {
+    background-color: blueviolet;
+}
+
+.footer .grid {
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.footer a {
+    font-size: 20px;
+    color: #f4f4f4;
+}
+
+.footer .social a {
+    margin: 0 10px;
+}
+
+@media(max-width:768px) {
+    .footer .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: ifr;
+
+    }
+}

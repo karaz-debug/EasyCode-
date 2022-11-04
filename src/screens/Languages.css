@@ -1,0 +1,32 @@
+.languages {
+    margin-top: 100px;
+}
+
+.languages h2 {
+    margin-bottom: 40px;
+}
+
+.languages .card {
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+
+.languages .flex {
+    flex-wrap: wrap;
+}
+
+.languages .card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.languages .card:hover {
+    transform: translateY(-15px);
+}
+
+.languages img {
+    width: 120px;
+    height: 140px;
+    margin: 0 10px
+}
